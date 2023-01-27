@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a60ab84876475b0ce4ebaaaf479c0a0b",
+    "content-hash": "1affcc5dad229bd9cea383970625fb96",
     "packages": [
         {
             "name": "brick/math",
@@ -898,6 +898,64 @@
             "time": "2022-10-26T14:07:24+00:00"
         },
         {
+            "name": "jiny/auth",
+            "version": "0.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jinyphp/auth.git",
+                "reference": "c18fc649a251918c9247c1b41a128c4ba21348d0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jinyphp/auth/zipball/c18fc649a251918c9247c1b41a128c4ba21348d0",
+                "reference": "c18fc649a251918c9247c1b41a128c4ba21348d0",
+                "shasum": ""
+            },
+            "require": {
+                "livewire/livewire": "^2.10",
+                "php": "^7.3|^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Jiny\\Auth\\JinyAuthServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Helpers/Helper.php"
+                ],
+                "psr-4": {
+                    "Jiny\\Auth\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "hojinlee",
+                    "email": "infohojin@gmail.com",
+                    "homepage": "http://www.jinyphp.com"
+                }
+            ],
+            "description": "jiny auth for JinyPHP",
+            "homepage": "http://www.jinyphp.com",
+            "keywords": [
+                "auth",
+                "framwork",
+                "jinyphp"
+            ],
+            "support": {
+                "issues": "https://github.com/jinyphp/auth/issues",
+                "source": "https://github.com/jinyphp/auth/tree/0.0.6"
+            },
+            "time": "2022-09-23T07:04:00+00:00"
+        },
+        {
             "name": "jiny/html",
             "version": "0.1.0",
             "source": {
@@ -948,6 +1006,219 @@
                 "source": "https://github.com/jinyphp/html/tree/0.1.0"
             },
             "time": "2023-01-27T04:57:31+00:00"
+        },
+        {
+            "name": "jiny/modules",
+            "version": "0.0.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jinyerp/modules.git",
+                "reference": "9e6223781e67528032faef61caad88aab6daaf5f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jinyerp/modules/zipball/9e6223781e67528032faef61caad88aab6daaf5f",
+                "reference": "9e6223781e67528032faef61caad88aab6daaf5f",
+                "shasum": ""
+            },
+            "require": {
+                "livewire/livewire": "^2.7",
+                "nwidart/laravel-modules": "^8.3",
+                "php": "^7.3|^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Jiny\\Modules\\JinyModulesServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Helpers/Helper.php"
+                ],
+                "psr-4": {
+                    "Jiny\\Modules\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "hojinlee",
+                    "email": "infohojin@gmail.com",
+                    "homepage": "http://www.jinyerp.com"
+                }
+            ],
+            "description": "jiny Module Manager for laravel",
+            "homepage": "http://www.jinyerp.com",
+            "keywords": [
+                "framwork",
+                "jiny",
+                "jinyERP",
+                "jinyphp",
+                "laravel",
+                "modules"
+            ],
+            "support": {
+                "issues": "https://github.com/jinyerp/modules/issues",
+                "source": "https://github.com/jinyerp/modules/tree/0.0.12"
+            },
+            "time": "2022-09-26T09:27:11+00:00"
+        },
+        {
+            "name": "jiny/table",
+            "version": "0.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jinyphp/table.git",
+                "reference": "585971dcfc162d87f6255ff178ec6f3bb8bfea84"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jinyphp/table/zipball/585971dcfc162d87f6255ff178ec6f3bb8bfea84",
+                "reference": "585971dcfc162d87f6255ff178ec6f3bb8bfea84",
+                "shasum": ""
+            },
+            "require": {
+                "livewire/livewire": "^2.7",
+                "php": "^7.3|^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Jiny\\Table\\JinyTableServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Helpers/Helper.php"
+                ],
+                "psr-4": {
+                    "Jiny\\Table\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "hojinlee",
+                    "email": "infohojin@gmail.com"
+                }
+            ],
+            "description": "table for JinyPHP",
+            "support": {
+                "issues": "https://github.com/jinyphp/table/issues",
+                "source": "https://github.com/jinyphp/table/tree/0.0.3"
+            },
+            "time": "2022-08-25T06:51:00+00:00"
+        },
+        {
+            "name": "jiny/theme",
+            "version": "0.9.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jinyphp/theme.git",
+                "reference": "8fddef3f0f9fe9dab9f7c3348b452e22f7bf552a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jinyphp/theme/zipball/8fddef3f0f9fe9dab9f7c3348b452e22f7bf552a",
+                "reference": "8fddef3f0f9fe9dab9f7c3348b452e22f7bf552a",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.4",
+                "livewire/livewire": "^2.7",
+                "php": "^7.3|^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Jiny\\Theme\\JinyThemeServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Helpers/Helper.php"
+                ],
+                "psr-4": {
+                    "Jiny\\Theme\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "hojinlee",
+                    "email": "infohojin@gmail.com"
+                }
+            ],
+            "description": "jinyPHP Theme Manager for Laravel",
+            "support": {
+                "issues": "https://github.com/jinyphp/theme/issues",
+                "source": "https://github.com/jinyphp/theme/tree/0.9.9"
+            },
+            "time": "2022-08-25T07:14:02+00:00"
+        },
+        {
+            "name": "jiny/ui",
+            "version": "0.9.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jinyphp/ui.git",
+                "reference": "9b9e9e0bd70a234daa34ad44abc6cbf52f4a697f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jinyphp/ui/zipball/9b9e9e0bd70a234daa34ad44abc6cbf52f4a697f",
+                "reference": "9b9e9e0bd70a234daa34ad44abc6cbf52f4a697f",
+                "shasum": ""
+            },
+            "require": {
+                "livewire/livewire": "^2.7",
+                "php": "^7.3|^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Jiny\\UI\\JinyUIServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Helpers/Helper.php"
+                ],
+                "psr-4": {
+                    "Jiny\\UI\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "hojinlee",
+                    "email": "infohojin@gmail.com"
+                }
+            ],
+            "description": "jiny ui components",
+            "support": {
+                "issues": "https://github.com/jinyphp/ui/issues",
+                "source": "https://github.com/jinyphp/ui/tree/0.9.3"
+            },
+            "time": "2022-08-11T11:33:56+00:00"
         },
         {
             "name": "laravel/framework",
@@ -2232,6 +2503,87 @@
                 }
             ],
             "time": "2022-12-20T19:00:15+00:00"
+        },
+        {
+            "name": "nwidart/laravel-modules",
+            "version": "v8.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nWidart/laravel-modules.git",
+                "reference": "ee06dc0ac019cc392bd66a1c3e6cec0412fcc52d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nWidart/laravel-modules/zipball/ee06dc0ac019cc392bd66a1c3e6cec0412fcc52d",
+                "reference": "ee06dc0ac019cc392bd66a1c3e6cec0412fcc52d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.16",
+                "laravel/framework": "^8.0",
+                "mockery/mockery": "~1.0",
+                "orchestra/testbench": "^6.2",
+                "phpstan/phpstan": "^0.12.14",
+                "phpunit/phpunit": "^8.5",
+                "spatie/phpunit-snapshot-assertions": "^2.1.0|^4.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Nwidart\\Modules\\LaravelModulesServiceProvider"
+                    ],
+                    "aliases": {
+                        "Module": "Nwidart\\Modules\\Facades\\Module"
+                    }
+                },
+                "branch-alias": {
+                    "dev-master": "8.0-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Nwidart\\Modules\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Widart",
+                    "email": "n.widart@gmail.com",
+                    "homepage": "https://nicolaswidart.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Laravel Module management",
+            "keywords": [
+                "laravel",
+                "module",
+                "modules",
+                "nwidart",
+                "rad"
+            ],
+            "support": {
+                "issues": "https://github.com/nWidart/laravel-modules/issues",
+                "source": "https://github.com/nWidart/laravel-modules/tree/v8.3.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/nwidart",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-02-10T20:30:19+00:00"
         },
         {
             "name": "phpoption/phpoption",

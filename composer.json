@@ -7,7 +7,12 @@
     "require": {
         "php": "^8.0.2",
         "guzzlehttp/guzzle": "^7.2",
+        "jiny/auth": "^0.0.6",
         "jiny/html": "^0.1.0",
+        "jiny/modules": "^0.0.12",
+        "jiny/table": "^0.0.3",
+        "jiny/theme": "^0.9.9",
+        "jiny/ui": "^0.9.3",
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
@@ -26,7 +31,8 @@
         "psr-4": {
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
+            "Database\\Seeders\\": "database/seeders/",
+            "Modules\\": "Modules/"
         }
     },
     "autoload-dev": {

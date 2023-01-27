@@ -9,4 +9,10 @@ composer create-project jiny/laravel 프로젝트
 ```
 
 지니PHP는 추가 패키지들을 포함하고 있습니다.
-* jiny/html 
+* jiny/html
+* jiny/ui
+* jiny/theme
+* jiny/table
+* jiny/auth
+* jiny/modules
+
